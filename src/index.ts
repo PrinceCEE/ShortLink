@@ -4,7 +4,7 @@ import getServer from "./api/server";
 function main() {
   dotenv.config();
 
-  const port = process.env.NODE_ENV || "3000";
+  const port = process.env.PORT || "3000";
   const server = getServer();
   server.listen(port, () => {
     console.log(`server running on :${port}`);

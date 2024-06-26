@@ -7,7 +7,7 @@
     "strict": true,
     "skipLibCheck": true,
     "baseUrl": ".",
-    "outDir": "build",
+    "outDir": "./dist",
     "paths": {
       "src/*": ["./src/*"]
     }
