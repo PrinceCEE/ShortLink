@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npm run build && node --test dist",
-    "dev": "ts-node-dev --respawn src/index.ts",
+    "test": "clear && npm run build && node --test dist",
+    "dev": "ts-node-dev --clear --respawn src/index.ts",
     "compile": "tsc -p tsconfig.json",
     "clean": "rm -rf dist",
     "build": "npm run clean && npm run compile",
