@@ -1,3 +1,5 @@
+require("module-alias/register");
+
 import dotenv from "dotenv";
 import getServer from "./api/server";
 
