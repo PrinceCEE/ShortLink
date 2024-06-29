@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "clear && npm run build && node --test dist",
-    "dev": "ts-node-dev --clear -r tsconfig-paths/register src/index.ts",
+    "dev": "npm run build && ts-node-dev --clear -r tsconfig-paths/register src/index.ts",
     "compile": "tsc -p tsconfig.json",
     "clean": "rm -rf dist",
     "build": "npm run clean && npm run compile",
