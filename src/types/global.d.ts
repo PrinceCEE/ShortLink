@@ -3,5 +3,6 @@ declare namespace NodeJS {
     NODE_ENV: string;
     PORT?: string;
     REDIRECT_URL?: string;
+    KEY_LEN?: string;
   }
 }
